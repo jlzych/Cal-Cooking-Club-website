@@ -1,0 +1,240 @@
+{
+  "officers": 
+  [
+    {
+      "title": "President",
+      "name": "Cat Lee",
+      "year": "Graduated May 2009",
+      "email": "president@cooking.berkeley.edu",
+      "what_i_do": "I plan general meetings and oversee the other officers of the club, delegating tasks where necessary and keeping tabs on all that is going on within the club. I also make and eat lots and lots of tasty food all the time!",
+      "favorite_foods": "Some of my favorite foods are avocados, eggplant, butternut squash, hummus, gouda and grapes, black bean dip, tortilla soup, pad see-yew, phish food ice cream, lemon bars, and much more!",
+      "interests": "I like to snowboard, play soccer, tennis, and golf. I also enjoy reading and traveling, and I love to cook and bake!",
+      "thumb": "http://farm2.static.flickr.com/1103/5129364549_e4815740d4_s.jpg",
+      "large": "http://farm2.static.flickr.com/1103/5129364549_e4815740d4_z.jpg"
+    },
+    {
+      "title": "Co-President",
+      "name": "Tristan Gagnon-Bartsch",
+      "year": "3rd year grad student",
+      "email": "tristangb@gmail.com",
+      "what_i_do": "I am the administrative president. By that, I mean that I am the president of the club on paper. It is I who takes care of the important paperwork that needs the president's signature on it. Beyond that I also try to make sure things are running smoothly in general.",
+      "favorite_foods": "Is beer a food?",
+      "interests": "Travel, eating and/or cooking good food (who would have guessed?), orange cats, wine.",
+      "thumb": "http://farm2.static.flickr.com/1090/5129966898_07ee76a2a6_s.jpg",
+      "large": "http://farm2.static.flickr.com/1090/5129966898_07ee76a2a6_z.jpg"
+    },
+    {
+      "title": "President-To-Be, Potluck Coordinator",
+      "name": "Jasmine Hyatt",
+      "year": "4th year, Senior",
+      "email": "jasminehyatt@gmail.com",
+      "what_i_do": "I do what I want!",
+      "favorite_foods": "A good burrito, most pastas, sugar snap peas, mashed potatoes, mac n' cheese, in fact most cheeses (goat cheese, especially! yum!)",
+      "interests": "Learning, amateur knitting, cooking, bargain shopping, humor (usually crude), the great outdoors.",
+      "thumb": "http://farm2.static.flickr.com/1333/5129967100_d5deb9f164_s.jpg",
+      "large": "http://farm2.static.flickr.com/1333/5129967100_d5deb9f164_z.jpg"
+    },
+    {
+      "title": "Vice President",
+      "name": "Andy Sampson",
+      "year": "Senior",
+      "major": "Classical Civilizations",
+      "email": "asampson@berkeley.edu",
+      "what_i_do": "As the Vice President of Cal Cooking Club, I make sure things run smoothly as possible by helping out wherever necessary whether it be publicity, treasurer, or home clinics. Specifically, I work closely with the president to oversee many aspects of infrastructure within the club by working with the ASUC, helping organize the general meets, and delegating appropriate tasks amongst the other officers.",
+      "favorite_foods": "I love pasta. All kinds. So tasty! I can't go too long without Chinese or Thai food. I really like desserts, especially cakes and cookies. Besides that, I would die if I couldn't eat cheese anymore.",
+      "interests": "I'm a huge movie snob. I like to read (often with the exception of textbooks). I really like to snowboard. I enjoy hiking. And I find baking incredibly therapeutic.",
+      "thumb": "http://farm2.static.flickr.com/1383/5129378327_ca7b0ecd73_s.jpg",
+      "large": "http://farm2.static.flickr.com/1383/5129378327_ca7b0ecd73_z.jpg"
+    },
+    {
+      "title": "Secretary",
+      "name": "Jeannie Wu",
+      "year": "Freshman",
+      "email": "wu.jeannie@yahoo.com",
+      "what_i_do": "I handle many of the logistics of Cooking Club and make monthly newsletters to send out to the members",
+      "favorite_foods": "Sushi, but I love to eat and try anything new!",
+      "interests": "Food, Soccer, Politics, and watching TV!",
+      "thumb": "http://farm5.static.flickr.com/4127/5129966970_c061dffe53_s.jpg",
+      "large": "http://farm5.static.flickr.com/4127/5129966970_c061dffe53_m.jpg"
+    },
+    {
+      "title": "Co-Secretary/ASUC Liaison",
+      "name": "Tran Do",
+      "year": "Freshman",
+      "major": "Chemical Biology",
+      "email": "tdo0929@berkeley.edu",
+      "what_i_do": "I mostly communicate with ASUC to help Cal Cooking Club run smoothly. I also help the secretary with her job.",
+      "favorite_foods": "Broiled Salmon glazed with honey",
+      "interests": "Swimming, badminton, cooking--of course =).",
+      "thumb": "http://farm2.static.flickr.com/1162/5129365341_077e78b568_s.jpg",
+      "large": "http://farm2.static.flickr.com/1162/5129365341_077e78b568_z.jpg"
+    },
+    {
+      "title": "Treasurer",
+      "name": "Kimberly Chen",
+      "year": "4th/Senior",
+      "email": "snowangel9084@yahoo.com",
+      "what_i_do": "I, with Alex, approve all monetary transactions that come through the club from member dues to paying for demonstrations and transportation to clinics.",
+      "favorite_foods": "Any and all kinds of Asian food. I'll try everything once, but after that, no promises.",
+      "interests": "baking, sleeping, traveling, reading",
+      "thumb": "http://farm2.static.flickr.com/1215/5129364903_709c6aaf24_t.jpg",
+      "large": "http://farm2.static.flickr.com/1215/5129364903_709c6aaf24.jpg"
+    },
+    {
+      "title": "Co-Treasurer",
+      "name": "Alex",
+      "email": "afrech@berkeley.edu"
+    },
+    {
+      "title": "Restaurant Liaison",
+      "name": "Shannon Lu",
+      "year": "Second",
+      "email": "shannon.chi.lu@gmail.com",
+      "what_i_do": "I contact local restaurants around Berkeley to organize restaurant sessions to see if they would host members of our club to get a glimpse of the the behind the scenes work that goes on in their kitchens.",
+      "favorite_foods": "Anything fried, sushi, greek food, mexican food (that is only from san diego)",
+      "interests": "I love to cook, bake, and eat (obviously). But besides that, I love to play video games, go shopping, going to the beach, and hang out with friends!",
+      "thumb": "http://farm2.static.flickr.com/1433/5129365593_48fb91cdc3_s.jpg",
+      "large": "http://farm2.static.flickr.com/1433/5129365593_48fb91cdc3_z.jpg"
+    },
+    {
+      "title": "Student Cooking Workshops Coordinator",
+      "name": "Mattan Mansoor",
+      "year": "Sophomore",
+      "email": "calcookingworkshops@gmail.com",
+      "what_i_do": "I primarily organize and set up cooking workshops taught by chefs and experienced club members and make sure that they run smoothly.",
+      "favorite_foods": "My favorites include cheese and chocolate fondue, olives, eggplant, Greek salad, halibut, Thai curry, sushi, ice cream from Ici, Cheeseboard, chicken tikka masala, challah, cheesecake, macadamia nuts, and steak.",
+      "interests": "When I am not cooking, I like to play tennis and beach volleyball. I love traveling. I think airplanes are awesome.",
+      "thumb": "http://farm5.static.flickr.com/4030/5129364933_3c9b5b63fb_s.jpg",
+      "large": "http://farm5.static.flickr.com/4030/5129364933_3c9b5b63fb.jpg"
+    },
+    {
+      "name": "Susie Suh",
+      "title": "Community Outreach",
+      "year": "Junior",
+      "major": "Integrative Biology",
+      "email": "outreach@cooking.berkeley.edu",
+      "what_i_do": "We look for ways to contribute our love of cooking to the community. Currently, we prepare and hold a cooking class at senior resident apartment in Oakland and share the fun of cooking with the elderly.",
+      "favorite_foods": "Cheesecake, brownies",
+      "interests": "Baking"
+    },
+    {
+      "title": "Community Outreach", 
+      "name": "Moonyoung Choi",
+      "year": "Junior",
+      "email": "molnla3@hotmail.com",
+      "what_i_do": "Look for ways to help out people with Cooking + Food!",
+      "favorite_foods": "Korean Food, Japanese Food",
+      "interests": "Cooking, painting",
+      "thumb": "http://farm5.static.flickr.com/4016/5129966416_c6f83922b4_s.jpg",
+      "large": "http://farm5.static.flickr.com/4016/5129966416_c6f83922b4_z.jpg"
+    },
+    {
+      "title": "Snack Stop Co-cordinator",
+      "name": "Bertilde Khang",
+      "year": "Junior",
+      "email": "khang.bertilde@gmail.com",
+      "what_i_do": "I work with the other Snack Stop Coordinator to ensure that Snack Stop runs smoothly. I am responsible for creating the sign up sheets, organizing tabling shifts, and tracking each week’s inventory. I also keep in contact with other student organizations to create more collaborations between Snack Stop and other student events/programs outside of the Cal Cooking Club.",
+      "favorite_foods": "Italian Food, fresh Farmer's Market strawberries, frozen yogurt, filet mignon, Ici ice cream, and Apple Cider",
+      "interests": "I am obsessed with baking desserts, my current obsession: anything usually sold in French Patisserie like mille feuille, cream puff, crepe, tarte, mont blanc, crème brulee, chocolate mousse, opera cakes, etc~",
+      "thumb": "http://farm2.static.flickr.com/1155/5129966174_8c563cf2a2_s.jpg",
+      "large": "http://farm2.static.flickr.com/1155/5129966174_8c563cf2a2_z.jpg"
+    },
+    {
+      "title": "Snack Stop Co-coordinator",
+      "name": "Kayla Holderbein",
+      "year": "First year",
+      "email": "kaylamholderbein@gmail.com",
+      "what_i_do": "I make sure that the weekly Snack Stop in Sproul runs smoothly! Snack Stop gives bakers a chance to show off their skills by selling their baked goods from 10-2pm every Monday.",
+      "favorite_foods": "I dislike very few things, but some of my favorites include risotto, figs, and coq au vin.",
+      "interests": "Outside of cooking and baking, I enjoy hiking, traveling, painting, and anything in the theatre!"
+    },
+    {
+      "title": "Special Events Coordinator",
+      "name": "Yuner Teh",
+      "year": "Junior",
+      "email": "yunerteh@berkeley.edu",
+      "what_i_do": "I basically do events that don't fall under the other officers. All new events, mostly collaborations with other groups and clubs, are planned and coordinated by me :)",
+      "favorite_foods": "Pasta, Singaporean food, real Chinese food (Szechuan, Shanghainese, Hotpot...), baked yummies.",
+      "interests": "Dance, Moose, Restaurants",
+      "thumb": "http://farm2.static.flickr.com/1080/5129365467_8cbd5ff684_s.jpg",
+      "large": "http://farm2.static.flickr.com/1080/5129365467_8cbd5ff684_z.jpg"
+    },
+    {
+      "name": "David Seeto",
+      "title": "Special Events",
+      "year": "1st Year",
+      "email": "david.seeto@gmail.com",
+      "what_i_do": "Coordinate special events",
+      "favorite_foods": "Sushi!",
+      "interests": "Volunteer work, gaming, eating.",
+      "thumb": "http://farm5.static.flickr.com/4018/5129966656_b4c4eb470b_s.jpg",
+      "large": "http://farm5.static.flickr.com/4018/5129966656_b4c4eb470b_z.jpg"
+    },
+    {
+      "title": "Publicity Coordinator",
+      "name": "Valerie Truong",
+      "year": "Second",
+      "major": "Psychology",
+      "email": "valerietruong@berkeley.edu",
+      "what_I_do": "I promote the club! From club events to general meetings my job is to get the word out and let everyone know what’s going on, what our club is about, what we do, and all the exciting events coming up! So by taking on different types of media such as Facebook to flyering and tabling on Lower Sproul I hope to see our club grow even stronger.",
+      "favorite_foods": "Desserts! I love gelato, tiramisu, crème brulée, & double banana cream pie. Mostly anything I can put whipped cream on. I also have a thing for seafood and anything involving salmon… I can never get enough sushi! I actually love a lot of foods from different cultures, so any Mexican, Italian, Indian, Persian, or Japanese food I will probably love. Na’an bread with chicken tikka masala or tandoori chicken and samosas! I also love honey-glazed BBQ pork buns, Korean BBQ, spicy rice cakes topped with mozzarella cheese, and of course my mother’s pho and anything home-made :)",
+      "interests": "I come from a big family, so I really love hanging out with kids! And I enjoy spending a lot of time with my friends and family whenever I can. I’m a swimmer but I get sunburned VERY easily. I constantly have my earphones in since I am a big music junkie, plus it feels like I have a soundtrack for my life everyday! Haha",
+      "thumb": "http://farm5.static.flickr.com/4038/5129617463_618c7a9c3e_s.jpg",
+      "large": "http://farm5.static.flickr.com/4038/5129617463_618c7a9c3e.jpg"
+    },
+    {
+      "name": "Christine Nguyen", // Not on Cat's list?
+      "title": "Dine About Town co-coordinator",
+      "year": "3rd Year/ Junior",
+      "email": "nu.en.christine@berkeley.edu",
+      "what_i_do": "I am one of the coordinators for Dine About Town. What the Dine About Town coordinator does is organize nights when members can gather and collectively go to eat out at some restaurant around Berkeley (and maybe even San Francisco). As a Dine about Town coordinator, I, along with my co-coordinator, Fritz Foo, choose the restaurant and talk to the restaurant management in order to arrange the event for Cal Cooking Club members. This year, both Fritz and I are hoping to take club members to restaurants that Cal Students wouldn't normally eat at (either they're out of the way, hole-in-the-wall type places, or nice restaurants that one wouldn't eat at unless one had an occasion to). Our goal is to expose Berkeley students to more dining options and create more social events for members to attend. Personally, I'm hoping to be able to take cooking club members to some fabulous restaurants this semester as well as plan some Snack about Town events as well.",
+      "favorite_foods": "Lately, I've been really getting into Mediterranean food--just something about the hummus/pita bread combination gets me.",
+      "interests": "My interests vary a lot. They include: art, food, books/reading, photography, writing, music, traveling, eating, health/fitness, and more!",
+      "thumb": "http://farm2.static.flickr.com/1349/5129364853_a0449f62e7_s.jpg",
+      "large": "http://farm2.static.flickr.com/1349/5129364853_a0449f62e7.jpg"
+    },
+    {
+      "title": "Restaurant Liasion/Snack Stop", //Publicity?
+      "name": "Jing Xiong",
+      "year": "Sophomore",
+      "email": "teatimepocky@gmail.com",
+      "what_i_do": "Coordinate with local restaurants to organize cooking sessions and demos to get a behind the scenes look into how the best dishes in Berkeley are made. Also, help to organize bakers and volunteers for Snack Stop.",
+      "favorite_foods": "Sushi, pie, cream puffs, and anything fresh!",
+      "interests": "Reading, biking, playing volleyball, beach bumming, eating, baking.",
+      "thumb": "http://farm2.static.flickr.com/1251/5129365427_675e53d8e5_s.jpg",
+      "large": "http://farm2.static.flickr.com/1251/5129365427_675e53d8e5_z.jpg"
+    },
+    {
+      "title": "Publicity",
+      "name": "Tong Yan",
+      "year": "First",
+      "email": "tongyan92@berkeley.edu",
+      "what_i_do": "I get the word out on the various activities that we do through fliers and tabling!",
+      "favorite_foods": "I love eating basically anything. Macarons, hummus, pesto, rice, anything with basil in it, nectarines, curry, anything you can cook yourself, and so much more!",
+      "interests": "Besides cooking, I like drawing, exercising (sometimes), photography, biking, and music (I play cello and piano)",
+      "thumb": "http://farm5.static.flickr.com/4040/5129365493_35c4623d93_s.jpg",
+      "large": "http://farm5.static.flickr.com/4040/5129365493_35c4623d93_z.jpg"
+    },
+    {
+      "title": "Publicity",
+      "name": "Brian Gee",
+      "email": "bgee@berkeley.edu"
+    },
+    {
+      "title": "Webmaster",
+      "name": "Jeff Zych",
+      "year": "First year masters student at the School of Information",
+      "email": "jlzych@gmail.com",
+      "what_i_do": "I keep the club's website running.",
+      "favorite_foods": "Everything, especially burritos, Italian and sushi.",
+      "interests": "Tennis, soccer, guitar, bass.",
+      "thumb": "http://farm2.static.flickr.com/1386/5129434295_d0581c39d9_s.jpg",
+      "large": "http://farm2.static.flickr.com/1386/5129434295_d0581c39d9_z.jpg"
+    },
+    {
+      "title": "Media",
+      "name": "Ross Breytburg",
+      "email": "rossbreytberg@berkeley.edu"
+    }
+  ]
+}

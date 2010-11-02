@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Cal Cooking Club
+     - Get Involved</title>
+    <meta content='Cal Cooking Club: Information on events, recipes, officers, and more.' name='description' />
+    <meta content='Jeff Zych' name='author' />
+    <link href="stylesheets/reset.css" media="all" rel="stylesheet" type="text/css"/><link href="stylesheets/application.css" media="all" rel="stylesheet" type="text/css"/><link href="stylesheets/jquery.lightbox.css" media="all" rel="stylesheet" type="text/css"/>
+    <!-- = javascripts 'http://www.google.com/jsapi' -->
+    <!--
+      Google Calendar
+      <script type='text/javascript'>
+        //<![CDATA[
+          google.load("gdata", "1");
+          google.setOnLoadCallback(loadFeed);
+          
+          function loadFeed() {
+            var service = new google.gdata.calendar.CalendarService('calcooking');
+            var query = new google.gdata.calendar.CalendarEventQuery('https://www.google.com/calendar/feeds/calcooking@gmail.com/public/full');
+            query.setOrderBy('starttime');
+            query.setSortOrder('ascending');
+            query.setFutureEvents(true);
+            query.setMaxResults(10);
+            service.getEventsFeed(query, displayFeed, error);
+          }
+          
+          function displayFeed(result) {
+            console.log(result);
+            var entries = result.feed.entry;
+            for (var i = 0; i < entries.length; i++) {
+              var times = entries[i].getTimes();
+              var start = times[0].getStartTime().getDate();
+              $('#sidebar').append($('<p>').text(entries[i].getTitle().getText() + ' - ' + start));
+            }
+          }
+          
+          function error(e) {
+            //console.log(e.cause ? e.cause.statusText : e.message);
+          }
+        //]]>
+      </script>
+    -->
+    <!-- Google Analytics tracking -->
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19187205-1']);
+        _gaq.push(['_trackPageview']);
+        
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      //]]>
+    </script>
+  </head>
+  <body id='get_involved'>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="who_we_are.html">Who We Are</a></li>
+        <li><a href="get_involved.html">Get Involved</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div id='content'>
+      <h1>Get Involved</h1>
+      <h2>Join the Club!</h2>
+      <p>Sign-up to be on the listserv and recieve 3-4 emails per month, including our newsletter</p>
+      <p>
+        Questions? Email
+        <a href="mailto:secretary@cooking.berkeley.edu" title="Secretary">secretary@cooking.berkeley.edu</a>
+      </p>
+      <h2>Become a member!</h2>
+      <p>Membership dues:</p>
+      <p>$10 for the year/$25 for life (includes a free CCC t-shirt!)</p>
+      <p>*to participate in CCC events other than general meetings, you must become a member.</p>
+      <h2>Become an officer!</h2>
+      <p>Officer positions available:</p>
+      <ul>
+        <li>List of positions</li>
+        <li>Position</li>
+      </ul>
+      <p>
+        Email
+        <a href="mailto: president@cooking.berkeley.edu" title="President">president@cooking.berkeley.edu</a>
+      </p>
+      <a href="http://www.facebook.com/group.php?gid=2200848630" target="_blank" title="Facebook Group">Check us out on Facebook</a>
+    </div>
+    <div id='sidebar'>
+      <h3>Upcoming Events</h3>
+      <iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=calcooking%40gmail.com&amp;color=%23A32929&amp;src=8u0p6emdfq3jipn2votu8mff60%40group.calendar.google.com&amp;color=%23BE6D00&amp;src=rl7duqnu33onibrddfdc6imokg%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=p4crsfd37qfo3vl7mr53c4jmf0%40group.calendar.google.com&amp;color=%230D7813&amp;src=5fi0hc72f0dfbgreg28iem3dcg%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=Pacific%2FApia" style=" border-width:0 " frameborder="0" scrolling="no"></iframe>
+      <a href="calendar.html" target="_blank">View All Events >></a>
+    </div>
+    <!--
+      JS placed at bottom for better performance
+      Use Google's CDN jQuery, fall back to local otherwise
+    -->
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        !window.jQuery && document.write('<script src="javascripts/jquery-1.4.2.min.js"><\/script>')
+      //]]>
+    </script>
+    <script src='javascripts/jquery.lightbox-0.5.pack.js'></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        $(document).ready(function() {
+          $('a:has(img)').lightBox();
+        });
+      //]]>
+    </script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+!!!5
+%html
+  %head
+    %meta{"charset" => "utf-8"}
+    %title<
+      Cal Cooking Club
+      -if @title
+        =" - " + @title
+
+    %meta{"name" => "description", "content" => "Cal Cooking Club: Information on events, recipes, officers, and more."}
+    %meta{"name" => "author", "content" => "Jeff Zych"}
+    = stylesheets :reset, :application, 'jquery.lightbox'
+    /= javascripts 'http://www.google.com/jsapi'
+    
+    / 
+      Google Calendar
+      :javascript
+        google.load("gdata", "1");
+        google.setOnLoadCallback(loadFeed);
+      
+        function loadFeed() {
+          var service = new google.gdata.calendar.CalendarService('calcooking');
+          var query = new google.gdata.calendar.CalendarEventQuery('https://www.google.com/calendar/feeds/calcooking@gmail.com/public/full');
+          query.setOrderBy('starttime');
+          query.setSortOrder('ascending');
+          query.setFutureEvents(true);
+          query.setMaxResults(10);
+          service.getEventsFeed(query, displayFeed, error);
+        }
+      
+        function displayFeed(result) {
+          console.log(result);
+          var entries = result.feed.entry;
+          for (var i = 0; i < entries.length; i++) {
+            var times = entries[i].getTimes();
+            var start = times[0].getStartTime().getDate();
+            $('#sidebar').append($('<p>').text(entries[i].getTitle().getText() + ' - ' + start));
+          }
+        }
+      
+        function error(e) {
+          //console.log(e.cause ? e.cause.statusText : e.message);
+        }
+    
+    / Google Analytics tracking
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19187205-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+  -@bid = @title || "index"
+  %body{'id' => "#{urlify(@bid.downcase)}"}
+    %nav
+      %ul
+        -["Home", "Events", "Who We Are", "Get Involved", "Contact Us"].each do |item|
+          -if item == "Home"
+            %li=link item, "index.html"
+          -else
+            %li=link item
+
+    #content
+      -if @title
+        %h1= @title
+      = yield
+    #sidebar
+      %h3 Upcoming Events
+      <iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=calcooking%40gmail.com&amp;color=%23A32929&amp;src=8u0p6emdfq3jipn2votu8mff60%40group.calendar.google.com&amp;color=%23BE6D00&amp;src=rl7duqnu33onibrddfdc6imokg%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=p4crsfd37qfo3vl7mr53c4jmf0%40group.calendar.google.com&amp;color=%230D7813&amp;src=5fi0hc72f0dfbgreg28iem3dcg%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=Pacific%2FApia" style=" border-width:0 " frameborder="0" scrolling="no"></iframe>
+      =link 'View All Events >>', 'calendar.html', {:target => '_blank'}
+    
+    / 
+      JS placed at bottom for better performance
+      Use Google's CDN jQuery, fall back to local otherwise
+    %script{"src" => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"}
+    :javascript
+      !window.jQuery && document.write('<script src="javascripts/jquery-1.4.2.min.js"><\/script>')
+    %script{"src" => "javascripts/jquery.lightbox-0.5.pack.js"}
+    :javascript
+      $(document).ready(function() {
+        $('a:has(img)').lightBox();
+      });
+    

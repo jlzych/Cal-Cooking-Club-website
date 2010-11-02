@@ -1,0 +1,19 @@
+-@title = "Officers"
+
+- get_officers.each do |item|
+  %h2="#{item['title']} - #{item['name']}"
+  
+  -if item['thumb']
+    %a{"href" => "#{item['large']}", "title" => "#{item['name']}"}
+      %img{"src" => "#{item['thumb']}", "alt" => "#{item['title']} - #{item['name']}"}
+
+  %ul
+    -item.each_pair do |key, value|
+      -if key.downcase == 'email'
+        %li
+          %span{'class' => 'label'}="#{key.capitalize}" 
+          =link "#{value}", "mailto:#{value}"
+      -elsif !['name', 'title', 'thumb', 'large'].include? key
+        %li
+          %span{'class' => 'label'}="#{key.gsub('_', ' ').capitalize}"
+          ="#{value}"

@@ -1,0 +1,7 @@
+-@title = "Contact Us"
+-@layout = "application"
+
+- get_officers.each do |officer|
+  %p
+    =link officer["title"], "mailto:#{officer['email']}"
+    =' - ' + officer['name']
