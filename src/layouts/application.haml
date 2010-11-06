@@ -57,12 +57,12 @@
   -@bid = @title || "index"
   %body{'id' => "#{urlify(@bid.downcase)}"}
     %nav
-      %ul
-        -["Home", "Events", "Who We Are", "Get Involved", "Contact Us"].each do |item|
-          -if item == "Home"
-            %li=link item, "index.html"
+      %ul<
+        -["home", "events", "who we are", "join", "contact us"].each do |item|
+          -if item == "home"
+            %li>=link item, "index.html"
           -else
-            %li=link item
+            %li>=link item
 
     #content
       -if @title
