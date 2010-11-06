@@ -234,7 +234,14 @@
     {
       "title": "Media",
       "name": "Ross Breytburg",
-      "email": "rossbreytberg@berkeley.edu"
+      "email": "rossbreytberg@berkeley.edu",
+      "year": "Sophomore",
+      "major": "EECS",
+      "what_i_do": "Take photos at club events.",
+      "favorite_foods": "Still deciding",
+      "interests": "Cooking and photography of course.",
+      "thumb": "http://farm2.static.flickr.com/1246/5141712225_277ba44d31_s.jpg",
+      "large": "http://farm2.static.flickr.com/1246/5141712225_277ba44d31_z.jpg"
     }
   ]
 }
