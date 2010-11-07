@@ -12,43 +12,69 @@ body#officers ul {
   vertical-align: top;
 }
 
-a {
+#content a, #sidebar a {
   color: #010066;
 }
-
-a:hover {
+#content a:hover, #sidebar a:hover {
   background-color: #010066;
   color: white;
   text-decoration: none;
 }
 
+h1 {
+  margin-top: 0.75em;
+}
+
+/* Vertical cal cooking club words TODO: make words/svg */
+#ccc {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 120px;
+}
+#ccc a {
+  display: block;
+  border: none;
+  color: #010066;
+  margin-left: -4px;
+  margin-top: 45px;
+  text-decoration: none;
+}
+
 /* Main site navigation */
 nav {
-  background-color: #010066;
-  height: 40px;
-  padding: 8px;
-  padding-left: 120px;
+  border-bottom: 1px dotted #444444;
+  /* Moved height to li because of weird rendering bug that had li height=0 */
+  margin-left: 120px;
+}
+nav ul {
+  height: 100%;
 }
 nav ul li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: inline-block;
+  height: 80px;
   padding-right: 20px;
+  position: relative;
   vertical-align: bottom;
   width: 120px;
 }
 nav ul li a {
-  color: white;
-  font-size: 15px;
-  font-variant: small-caps;
+  bottom: 0;
+  color: #999999;
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18pt;
   font-weight: bold;
-  letter-spacing: 2px;
+  position: absolute;
   text-decoration: none;
-  text-shadow: 1px 1px 2px #444444;
+  width: 100%;
 }
-nav ul li a:hover {
-  color: #ffcc33;
+nav ul li a:hover, nav ul li a.current {
+  color: #010066;
 }
 
 /* Main site content */
@@ -56,6 +82,7 @@ nav ul li a:hover {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  color: #444444;
   display: inline-block;
   min-height: 560px;
   padding: 0 20px 2em 120px;
@@ -67,7 +94,6 @@ nav ul li a:hover {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  border-left: 1px dotted #444444;
   display: inline-block;
   height: auto;
   margin-top: 1em;
@@ -78,6 +104,7 @@ nav ul li a:hover {
 }
 #sidebar a {
   display: inline-block;
+  font-family: Verdana, sans-serif;
   font-size: 15px;
   font-weight: bold;
 }
@@ -85,7 +112,8 @@ nav ul li a:hover {
   color: #444444;
 }
 #sidebar iframe {
-  height: 500px;
+  height: 60%;
+  min-height: 400px;
 }
 
 .label {
@@ -105,7 +133,18 @@ nav ul li a:hover {
   width: 100%;
 }
 
-#involved {
+.important {
   display: inline-block;
+  font-family: Verdana, sans-serif;
   font-size: 2em;
+}
+
+/* Officers */
+.officer_name {
+  color: #444444;
+  margin-top: 0;
+}
+
+.label {
+  color: black;
 }
