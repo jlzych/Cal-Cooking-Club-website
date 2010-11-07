@@ -1,7 +1,8 @@
 -@title = "Officers"
 
 - get_officers.each do |item|
-  %h2="#{item['title']} - #{item['name']}"
+  %h2="#{item['title']}"
+  %h4.officer_name="#{item['name']}"
   
   -if item['thumb']
     %a{"href" => "#{item['large']}", "title" => "#{item['name']}"}

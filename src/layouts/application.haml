@@ -62,7 +62,7 @@
       %ul<
         -["events", "join", "who we are", "contact us"].each do |item|
           -@class = ''
-          -if current_page == urlify(item)
+          -if current_page == "/#{urlify(item)}.html"
             -@class = 'current'
           %li>=link item, {:class => @class}
 

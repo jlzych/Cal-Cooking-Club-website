@@ -18,32 +18,35 @@ body
     color: white
     text-decoration: none
 
+h1
+  margin-top: .75em
+
 /* Vertical cal cooking club words TODO: make words/svg
 #ccc
   height: 100%
   left: 0
-  position: absolute
+  position: fixed
   top: 0
   width: $column-width
   a
     display: block
     border: none
     color: #010066
-    margin-left: 1em
-    margin-top: 1em
+    margin-left: -4px
+    margin-top: 45px
     text-decoration: none
 
 /* Main site navigation
 nav
-  border-bottom: 2px solid #010066
-  height: $row-height
+  border-bottom: 1px dotted #444
+  /* Moved height to li because of weird rendering bug that had li height=0
   margin-left: $column-width
   ul
     height: 100%
     li
       @include box-sizing
       display: inline-block
-      height: 100%
+      height: $row-height
       padding-right: 20px
       position: relative
       vertical-align: bottom
@@ -73,7 +76,6 @@ nav
 /* Sidebar to hold events n shit
 #sidebar
   @include box-sizing
-  border-left: 1px dotted #444
   display: inline-block
   height: auto
   margin-top: 1em
@@ -89,7 +91,8 @@ nav
   h3
     color: #444
   iframe
-    height: 500px
+    height: 60%
+    min-height: 400px
     
 
 .label
@@ -105,7 +108,15 @@ nav
     height: 100%
     width: 100%
 
-#involved
+.important
   display: inline-block
   font-family: Verdana, sans-serif
   font-size: 2em
+
+/* Officers
+.officer_name
+  color: #444
+  margin-top: 0
+
+.label
+  color: black
