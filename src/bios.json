@@ -83,7 +83,11 @@
     {
       "title": "Co-Treasurer",
       "name": "Alex",
-      "email": "afrech@berkeley.edu"
+      "year": "Freshman",
+      "email": "afrech@berkeley.edu",
+      "interests": "My name is Alex Frech and I’m one of the co-treasurers of CCC. I started baking when I was little because I was lactose-intolerant and thus couldn’t have many store-bought goodies. Having grown out of that lactose-intolerance my favorite foods are now ice cream, cinnamon rolls, and sushi. As you can imagine, I love cooking but I also love skydiving and adventure.",
+      "thumb": "http://farm2.static.flickr.com/1284/5189212058_c0b8811228_s.jpg",
+      "large": "http://farm2.static.flickr.com/1284/5189212058_c0b8811228.jpg"
     },
     {
       "title": "Restaurant Liaison",
@@ -146,7 +150,9 @@
       "email": "kaylamholderbein@gmail.com",
       "what_i_do": "I make sure that the weekly Snack Stop in Sproul runs smoothly! Snack Stop gives bakers a chance to show off their skills by selling their baked goods from 10-2pm every Monday.",
       "favorite_foods": "I dislike very few things, but some of my favorites include risotto, figs, and coq au vin.",
-      "interests": "Outside of cooking and baking, I enjoy hiking, traveling, painting, and anything in the theatre!"
+      "interests": "Outside of cooking and baking, I enjoy hiking, traveling, painting, and anything in the theatre!",
+      "thumb": "http://farm5.static.flickr.com/4124/5189218560_afca33af1d_s.jpg",
+      "large": "http://farm5.static.flickr.com/4124/5189218560_afca33af1d.jpg"
     },
     {
       "title": "Special Events Coordinator",
@@ -171,6 +177,22 @@
       "large": "http://farm5.static.flickr.com/4018/5129966656_b4c4eb470b_z.jpg"
     },
     {
+      "name": "Fritz Foo",
+      "title": "Dine About Town Coordinator",
+      "email": "fritzfoo@berkeley.edu"
+    },
+    {
+      "name": "Christine Nguyen",
+      "title": "Dine About Town co-coordinator",
+      "year": "3rd Year/ Junior",
+      "email": "nu.en.christine@berkeley.edu",
+      "what_i_do": "I am one of the coordinators for Dine About Town. What the Dine About Town coordinator does is organize nights when members can gather and collectively go to eat out at some restaurant around Berkeley (and maybe even San Francisco). As a Dine about Town coordinator, I, along with my co-coordinator, Fritz Foo, choose the restaurant and talk to the restaurant management in order to arrange the event for Cal Cooking Club members. This year, both Fritz and I are hoping to take club members to restaurants that Cal Students wouldn't normally eat at (either they're out of the way, hole-in-the-wall type places, or nice restaurants that one wouldn't eat at unless one had an occasion to). Our goal is to expose Berkeley students to more dining options and create more social events for members to attend. Personally, I'm hoping to be able to take cooking club members to some fabulous restaurants this semester as well as plan some Snack about Town events as well.",
+      "favorite_foods": "Lately, I've been really getting into Mediterranean food--just something about the hummus/pita bread combination gets me.",
+      "interests": "My interests vary a lot. They include: art, food, books/reading, photography, writing, music, traveling, eating, health/fitness, and more!",
+      "thumb": "http://farm2.static.flickr.com/1349/5129364853_a0449f62e7_s.jpg",
+      "large": "http://farm2.static.flickr.com/1349/5129364853_a0449f62e7.jpg"
+    },
+    {
       "title": "Publicity Coordinator",
       "name": "Valerie Truong",
       "year": "Second",
@@ -183,18 +205,7 @@
       "large": "http://farm5.static.flickr.com/4038/5129617463_618c7a9c3e.jpg"
     },
     {
-      "name": "Christine Nguyen", // Not on Cat's list?
-      "title": "Dine About Town co-coordinator",
-      "year": "3rd Year/ Junior",
-      "email": "nu.en.christine@berkeley.edu",
-      "what_i_do": "I am one of the coordinators for Dine About Town. What the Dine About Town coordinator does is organize nights when members can gather and collectively go to eat out at some restaurant around Berkeley (and maybe even San Francisco). As a Dine about Town coordinator, I, along with my co-coordinator, Fritz Foo, choose the restaurant and talk to the restaurant management in order to arrange the event for Cal Cooking Club members. This year, both Fritz and I are hoping to take club members to restaurants that Cal Students wouldn't normally eat at (either they're out of the way, hole-in-the-wall type places, or nice restaurants that one wouldn't eat at unless one had an occasion to). Our goal is to expose Berkeley students to more dining options and create more social events for members to attend. Personally, I'm hoping to be able to take cooking club members to some fabulous restaurants this semester as well as plan some Snack about Town events as well.",
-      "favorite_foods": "Lately, I've been really getting into Mediterranean food--just something about the hummus/pita bread combination gets me.",
-      "interests": "My interests vary a lot. They include: art, food, books/reading, photography, writing, music, traveling, eating, health/fitness, and more!",
-      "thumb": "http://farm2.static.flickr.com/1349/5129364853_a0449f62e7_s.jpg",
-      "large": "http://farm2.static.flickr.com/1349/5129364853_a0449f62e7.jpg"
-    },
-    {
-      "title": "Restaurant Liasion/Snack Stop", //Publicity?
+      "title": "Restaurant Liasion/Snack Stop",
       "name": "Jing Xiong",
       "year": "Sophomore",
       "email": "teatimepocky@gmail.com",
