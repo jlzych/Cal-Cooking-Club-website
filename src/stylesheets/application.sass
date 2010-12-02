@@ -46,19 +46,17 @@ nav
     li
       @include box-sizing
       display: inline-block
-      height: $row-height
+      min-width: $column-width
       padding-right: 20px
-      position: relative
-      vertical-align: bottom
-      width: $column-width
       a
-        bottom: 0
+        @include box-sizing
         color: #999
-        display: block
+        display: inline-block
         font-family: Helvetica, Arial, sans-serif
         font-size: 18pt
         font-weight: bold
-        position: absolute
+        height: $row-height
+        padding-top: 47px
         text-decoration: none
         width: 100%
         &:hover, &.current
@@ -73,7 +71,7 @@ nav
   padding: 0 20px 2em $column-width
   width: $column-width * 6
 
-/* Sidebar to hold events n shit
+/* Sidebar to hold events
 #sidebar
   @include box-sizing
   display: inline-block
