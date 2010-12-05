@@ -3,13 +3,6 @@
 body
   background-color: white
   min-width: $column-width * 9 + 5
-  /* Officers page specific styling
-  &#officers 
-    img
-      display: inline-block
-    ul
-      display: inline-block
-      vertical-align: top
 
 #content a, #sidebar a
   color: #010066
@@ -21,26 +14,10 @@ body
 h1
   margin-top: .75em
 
-/* Vertical cal cooking club words TODO: make words/svg
-#ccc
-  height: 100%
-  left: 0
-  position: fixed
-  top: 0
-  width: $column-width
-  a
-    display: block
-    border: none
-    color: #010066
-    margin-left: -4px
-    margin-top: 45px
-    text-decoration: none
-
 /* Main site navigation
 nav
   border-bottom: 1px dotted #444
   /* Moved height to li because of weird rendering bug that had li height=0
-  margin-left: $column-width
   ul
     height: 100%
     li
@@ -61,6 +38,9 @@ nav
         width: 100%
         &:hover, &.current
           color: #010066
+        &#logo
+          height: auto
+          padding-top: 0
 
 /* Main site content
 #content
@@ -68,7 +48,7 @@ nav
   color: #444
   display: inline-block
   min-height: $row-height * 7
-  padding: 0 20px 2em $column-width
+  padding: 0 20px 2em $column-width + 20
   width: $column-width * 6
 
 /* Sidebar to hold events
@@ -114,6 +94,14 @@ nav
   width: 480px
 
 /* Officers
+#officers 
+  img
+    display: inline-block
+  ul
+    display: inline-block
+    list-style: none
+    vertical-align: top
+
 .officer_name
   color: #444
   margin-top: 0

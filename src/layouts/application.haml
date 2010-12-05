@@ -56,10 +56,10 @@
     
   -@bid = @title || "index"
   %body{'id' => "#{urlify(@bid.downcase)}"}
-    #ccc 
-      =link img('ccc.png'), 'index.html'
     %nav
       %ul<
+        %li
+          =link img('ccc.120.png'), "index.html", {:id => 'logo'}
         -["events", "join", "who we are", "contact us"].each do |item|
           -@class = ''
           -if current_page == "/#{urlify(item)}.html"
@@ -84,6 +84,6 @@
     %script{"src" => "javascripts/jquery.lightbox-0.5.pack.js"}
     :javascript
       $(document).ready(function() {
-        $('#content a:has(img)').lightBox();
+        $('#content a:has(img):not(.no_lb)').lightBox();
       });
     
