@@ -57,11 +57,10 @@
     </script>
   </head>
   <body id='get_involved'>
-    <div id='ccc'>
-      <a href="index.html"><img alt="Ccc" src="images/ccc.png"/></a>
-    </div>
     <nav>
-      <ul><li><a class="" href="events.html">events</a></li><li><a class="current" href="join.html">join</a></li><li><a class="" href="who_we_are.html">who we are</a></li><li><a class="" href="contact_us.html">contact us</a></li></ul>
+      <ul><li>
+        <a href="index.html" id="logo"><img alt="Ccc" src="images/ccc.120.png"/></a>
+      </li><li><a class="" href="events.html">events</a></li><li><a class="current" href="join.html">join</a></li><li><a class="" href="who_we_are.html">who we are</a></li><li><a class="" href="contact_us.html">contact us</a></li></ul>
     </nav>
     <div id='content'>
       <h1>Get Involved</h1>
@@ -78,8 +77,8 @@
       <h2>Become an officer!</h2>
       <p>Officer positions available:</p>
       <ul>
-        <li>List of positions</li>
-        <li>Position</li>
+        <li>Restaurant Session Liasons</li>
+        <li>Snack Stop Bakers/Helpers</li>
       </ul>
       <p>
         Email
@@ -106,7 +105,7 @@
     <script type='text/javascript'>
       //<![CDATA[
         $(document).ready(function() {
-          $('#content a:has(img)').lightBox();
+          $('#content a:has(img):not(.no_lb)').lightBox();
         });
       //]]>
     </script>

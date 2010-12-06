@@ -56,21 +56,25 @@
     </script>
   </head>
   <body id='index'>
-    <div id='ccc'>
-      <a href="index.html"><img alt="Ccc" src="images/ccc.png"/></a>
-    </div>
     <nav>
-      <ul><li><a class="" href="events.html">events</a></li><li><a class="" href="join.html">join</a></li><li><a class="" href="who_we_are.html">who we are</a></li><li><a class="" href="contact_us.html">contact us</a></li></ul>
+      <ul><li>
+        <a href="index.html" id="logo"><img alt="Ccc" src="images/ccc.120.png"/></a>
+      </li><li><a class="" href="events.html">events</a></li><li><a class="" href="join.html">join</a></li><li><a class="" href="who_we_are.html">who we are</a></li><li><a class="" href="contact_us.html">contact us</a></li></ul>
     </nav>
     <div id='content'>
       <h1>The Culinary Arts at CAL</h1>
       <p>
-        Cooking Club is a great way for students to take advantage of the extraordinary food culture of the Bay Area. We engage a diverse palate of eaters of all ages- from entering freshman to graduate students, novice cooks to seasoned chefs, let Cal Cooking Club be your guide to the gastronomic delights of Berkeley! Check us out on
+        <a class='no_lb' href='http://www.flickr.com/groups/calcooking/' title='View our Flickr stream'>
+          <img alt="Cal Cooking Club" class="home_image" src="images/ccc_home.jpg"/>
+        </a>
+      </p>
+      <div class='important'><a href="https://calmail.berkeley.edu/manage/list/listinfo/calcookingclub@lists.berkeley.edu" target="_blank">Join our mailing list!</a></div>
+      <p>
+        Cal Cooking Club is a great way for students to take advantage of the extraordinary food culture of the Bay Area. We engage a diverse palate of eaters of all ages- from entering freshman to graduate students, novice cooks to seasoned chefs, let Cal Cooking Club be your guide to the gastronomic delights of Berkeley! Check us out on
         <a href="http://www.facebook.com/group.php?gid=2200848630">Facebook</a>
         and
         <a href="http://www.flickr.com/groups/calcooking/">Flickr!</a>
       </p>
-      <div class='important'><a href="https://calmail.berkeley.edu/manage/list/listinfo/calcookingclub@lists.berkeley.edu" target="_blank">Join our mailing list!</a></div>
     </div>
     <div id='sidebar'>
       <h3>Upcoming Events</h3>
@@ -91,7 +95,7 @@
     <script type='text/javascript'>
       //<![CDATA[
         $(document).ready(function() {
-          $('#content a:has(img)').lightBox();
+          $('#content a:has(img):not(.no_lb)').lightBox();
         });
       //]]>
     </script>
