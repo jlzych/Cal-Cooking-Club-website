@@ -2,7 +2,7 @@
 
 body
   background-color: white
-  min-width: $column-width * 9 + 5
+  min-width: $total-width + 5
 
 #content a, #sidebar a
   color: #010066
@@ -71,11 +71,6 @@ nav
   iframe
     height: 400px
 
-.label
-  font-weight: bold
-  &:after
-    content: ':'
-
 /* Page specific styles
 #calendar
   background-color: white
@@ -94,17 +89,38 @@ nav
   width: 480px
 
 /* Officers
-#officers 
+#officers #content
   img
     display: inline-block
   ul
     display: inline-block
     list-style: none
     vertical-align: top
+    li
+      padding-bottom: 1em
 
 .officer_name
   color: #444
   margin-top: 0
 
+.email
+  font-size: 12pt
+  font-weight: normal
+
 .label
   color: black
+  font-weight: bold
+
+.thumb, .label
+  @include box-sizing
+  display: inline-block
+  padding-right: 20px
+  text-align: right
+  width: 120px
+
+.label
+  vertical-align: top
+
+.title, .text
+  display: inline-block
+  width: $column-width * 3

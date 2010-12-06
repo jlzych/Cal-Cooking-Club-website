@@ -2,21 +2,21 @@
 
 - get_officers.each do |item|
   %div{:class => "officer vcard"}
-    %h2="#{item['title']}"
-    %h4{:class => 'officer_name fn'}
-      ="#{item['name']}"
-  
-    -if item['thumb']
-      %a{"href" => "#{item['large']}", "title" => "#{item['name']}"}
-        %img{"src" => "#{item['thumb']}", "alt" => "#{item['title']} - #{item['name']}"}
+    .title_container
+      .thumb
+        -if item['thumb']
+          %a{"href" => "#{item['large']}", "title" => "#{item['name']}"}
+            %img{"src" => "#{item['thumb']}", "alt" => "#{item['title']} - #{item['name']}"}
+      .title
+        %h2="#{item['title']}"
+        %h4{:class => 'officer_name fn'}
+          ="#{item['name']}"
+          =" - "
+          =link "#{item['email']}", "mailto:#{item['email']}", {:class => 'email'}
 
     %ul
-      -item.each_pair do |key, value|
-        -if key.downcase == 'email'
+      -['year', 'major', 'what_i_do', 'interests', 'favorite_foods'].each do |key|
+        -if item[key]
           %li
-            %span{'class' => 'label'}="#{key.capitalize}" 
-            =link "#{value}", "mailto:#{value}", {:class => 'email'}
-        -elsif !['name', 'title', 'thumb', 'large'].include? key
-          %li
-            %span{'class' => 'label'}="#{key.gsub('_', ' ').capitalize}"
-            ="#{value}"
+            %span{'class' => 'label'}="#{key.split('_').each{|word| word.capitalize!}.join(' ')}"
+            %span.text="#{item[key]}"
